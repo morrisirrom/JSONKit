@@ -169,7 +169,7 @@
 		F680351A148F6D22008A51BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = nxtbgthng;
 			};
 			buildConfigurationList = F680351D148F6D22008A51BA /* Build configuration list for PBXProject "JSONKit" */;
@@ -233,6 +233,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -330,6 +331,7 @@
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nxtbgthng.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = JSONKit;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
@@ -355,6 +357,7 @@
 				INFOPLIST_FILE = "JSONKit/JSONKit-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "@executable_path/../Frameworks/$(EXECUTABLE_PATH)";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nxtbgthng.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = JSONKit;
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
